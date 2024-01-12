@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import NxWelcome from './NxWelcome.vue';
+import { LayoutA } from '@vue-ts-test/ui-layouts';
 </script>
 
 <template>
-  <NxWelcome title="app" />
+  <LayoutA />
 </template>

@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@vue-ts-test/ui-components": ["libs/ui/components/src/index.ts"],
+      "@vue-ts-test/ui-layouts": ["libs/ui/layouts/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
