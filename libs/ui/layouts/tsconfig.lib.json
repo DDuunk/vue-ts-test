@@ -2,10 +2,6 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../../dist/out-tsc",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "types": ["vite/client"],
     "lib": ["ES2016", "DOM", "DOM.Iterable"]
   },
